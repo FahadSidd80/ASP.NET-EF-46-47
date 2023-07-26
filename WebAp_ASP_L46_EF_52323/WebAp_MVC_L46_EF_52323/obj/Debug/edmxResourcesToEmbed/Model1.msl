@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_L46_MVC_EF_52323ModelStoreContainer" CdmEntityContainer="DB_L46_MVC_EF_52323Entities1">
+    <EntitySetMapping Name="tblEmployees">
+      <EntityTypeMapping TypeName="DB_L46_MVC_EF_52323Model.tblEmployee">
+        <MappingFragment StoreEntitySet="tblEmployee">
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="age" ColumnName="age" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_tblEmployee_get" FunctionName="DB_L46_MVC_EF_52323Model.Store.sp_tblEmployee_get">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB_L46_MVC_EF_52323Model.sp_tblEmployee_get_Result">
+          <ScalarProperty Name="empid" ColumnName="empid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="age" ColumnName="age" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_tblEmployee_insert" FunctionName="DB_L46_MVC_EF_52323Model.Store.sp_tblEmployee_insert" />
+  </EntityContainerMapping>
+</Mapping>

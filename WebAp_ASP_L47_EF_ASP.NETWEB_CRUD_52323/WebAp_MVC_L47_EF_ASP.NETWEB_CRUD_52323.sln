@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAp_MVC_L47_EF_ASP.NETWEB_CRUD_52323", "WebAp_MVC_L47_EF_ASP.NETWEB_CRUD_52323\WebAp_MVC_L47_EF_ASP.NETWEB_CRUD_52323.csproj", "{4B1F8917-019B-4B8B-9986-51635F75565E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B1F8917-019B-4B8B-9986-51635F75565E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B1F8917-019B-4B8B-9986-51635F75565E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B1F8917-019B-4B8B-9986-51635F75565E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B1F8917-019B-4B8B-9986-51635F75565E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {089C4AE2-8BB5-4F32-ADE8-BF2239F51665}
+	EndGlobalSection
+EndGlobal
